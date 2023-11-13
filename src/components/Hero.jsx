@@ -1,5 +1,6 @@
 import React from 'react'
 import Typed from 'react-typed'
+import '../App.css';
 
 export const Hero = () => {
   return (
@@ -18,7 +19,7 @@ export const Hero = () => {
                 />
             </div>
             <p className='md:text-2xl text-xl font-bold text-gray-500 capitalize'>monitor your data analitics to increase revenue for BTS, BTC and SAAS platforms.</p>
-            <button className='capitalize w-[200px] bg-[#00df9a] font-medium my-6 py-3 rounded-md mx-auto'>get started</button>
+            <button className='heroBtn text-[#000300] capitalize w-[200px] bg-[#00df9a] font-medium my-6 py-3 rounded-md mx-auto '>get started</button>
         </div>
     </div>
   )

@@ -11,7 +11,7 @@ export const Analytics = () => {
                 <p>
                 Centrally manage data analytics for streamlined insights. Centralized analytics enhance efficiency, providing a unified platform to analyze, interpret, and act on data, fostering informed decision-making across the organization.
                 </p>
-                <button className='capitalize text-[#00df9a] bg-[#000300] w-[200px]  font-medium my-6 py-3 rounded-md mx-auto md:mx-0'>get started</button>
+                <button className='capitalize text-[#00df9a] bg-[#000300] w-[200px]  font-medium my-6 py-3 rounded-md mx-auto md:mx-0 hover:shadow-xl'>get started</button>
 
             </div>
 

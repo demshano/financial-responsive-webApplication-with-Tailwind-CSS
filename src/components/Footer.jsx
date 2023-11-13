@@ -12,7 +12,7 @@ export const Footer = () => {
         <div>
           <h1 className='text-[#00df9a] w-full text-3xl font-bold '>REACT.</h1>
           <p className='py-4'>Empower your financial journey. Smart solutions for wealth management, investments, and financial success. Secure your future today.</p>
-          <div className='flex justify-between md:w-[75%] my-6 mx-auto'>
+          <div className='flex justify-between md:w-[75%] my-6 mx-auto cursor-pointer'>
             <FaDribbbleSquare size={30} />
             <FaFacebookSquare size={30} />
             <FaGithubSquare size={30} />
@@ -21,10 +21,10 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className='lg:col-span-2 flex justify-between ml-2 mt-6'>
+        <div className='lg:col-span-2 flex justify-between ml-2 mt-6 '>
           <div>
             <h1 className='font-medium '>Solution</h1>
-            <ul>
+            <ul className='cursor-pointer'>
               <li className='text-sm text-gray-400 py-2'>Analytics</li>
               <li className='text-sm text-gray-400 py-2'>Marketing</li>
               <li className='text-sm text-gray-400 py-2'>Commerce</li>
@@ -33,7 +33,7 @@ export const Footer = () => {
           </div>
           <div>
             <h1 className='font-medium '>Support</h1>
-            <ul>
+            <ul className='cursor-pointer'>
               <li className='text-sm text-gray-400 py-2'>Pricing</li>
               <li className='text-sm text-gray-400 py-2'>Documentation</li>
               <li className='text-sm text-gray-400 py-2'>Guide</li>
@@ -42,7 +42,7 @@ export const Footer = () => {
           </div>
           <div>
             <h1 className='font-medium '>Company</h1>
-            <ul>
+            <ul className='cursor-pointer'>
               <li className='text-sm text-gray-400 py-2'>About</li>
               <li className='text-sm text-gray-400 py-2'>Blog</li>
               <li className='text-sm text-gray-400 py-2'>Jobs</li>
@@ -52,7 +52,7 @@ export const Footer = () => {
           </div>
           <div>
             <h1 className='font-medium '>Legal</h1>
-            <ul>
+            <ul className='cursor-pointer'>
               <li className='text-sm text-gray-400 py-2'>Claim</li>
               <li className='text-sm text-gray-400 py-2'>Policy</li>
               <li className='text-sm text-gray-400 py-2'>Terms</li>
