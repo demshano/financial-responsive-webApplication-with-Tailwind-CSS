@@ -3,7 +3,7 @@ import { NavBar } from './components/NavBar'
 import { Hero } from './components/Hero'
 import { Analytics } from './components/Analytics'
 import { NewsLetter } from './components/NewsLetter'
-import { PriceCard } from './components/PriceCard'
+import { PricePanel } from './components/PricePanel'
 
 export const App = () => {
   return (
@@ -13,7 +13,7 @@ export const App = () => {
       <Hero />
       <Analytics />
       <NewsLetter />
-      <PriceCard />
+      <PricePanel />
     </div>
 
   )
