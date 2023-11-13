@@ -4,6 +4,7 @@ import { Hero } from './components/Hero'
 import { Analytics } from './components/Analytics'
 import { NewsLetter } from './components/NewsLetter'
 import { PricePanel } from './components/PricePanel'
+import { Footer } from './components/Footer'
 
 export const App = () => {
   return (
@@ -14,6 +15,7 @@ export const App = () => {
       <Analytics />
       <NewsLetter />
       <PricePanel />
+      <Footer />
     </div>
 
   )

@@ -1,0 +1,6 @@
+/* Custom styling for placeholder text */
+div input::placeholder {
+  color: blue;
+  padding-left: 14px;
+  /* You can adjust the margin value as needed */
+}
