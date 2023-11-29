@@ -14,7 +14,7 @@ export const NewsLetter = () => {
             <div className='my-4'>
 
                 <div className='flex flex-col sm:flex-row items-center justify-center w-full '>
-                    <input className='py-2  rounded-md flex w-full border-none' type="email" placeholder='Enter your email'   />
+                    <input className='py-2 pl-8 rounded-md flex w-full border-none' type="email" placeholder='Enter your email'   />
                     <button className='w-[200px] bg-[#00df9a] font-bold my-2 sm:my-0 p-2 rounded-md mx-4 lg:text-white '>Notify me</button>
                 </div>
 
